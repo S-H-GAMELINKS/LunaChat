@@ -7,7 +7,7 @@ Using C++ Web FrameWork：[Luna](https://github.com/DEGoodmanWilson/luna) &[Vue.
 
 ## ビルド
 
-###Set Luna environment
+### Set Luna environment
 
 [Show here](https://luna.goodman-wilson.com/using.html) 
 
