@@ -36,11 +36,11 @@ export default {
         getChatRooms: function() {
             const data = database.ref('lunachat');
             data.on("value", (snapshot) => {
-                const mastochat = Object.entries(snapshot.val());
+                const lunachat = Object.entries(snapshot.val());
                 
                 this.rooms.length = 0;
-                for(var i = 0; i < mastochat.length; i++) {
-                    this.rooms.push({id: mastochat[i][0], title: mastochat[i][1].title});
+                for(var i = 0; i < lunachat.length; i++) {
+                    this.rooms.push({id: lunachat[i][0], title: lunachat[i][1].title});
                 }
                 console.log(this.rooms);
             }, (errorObject) => {

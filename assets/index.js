@@ -15,5 +15,3 @@ const app = new Vue({
         'nav-bar': Header
     }
 })
-
-console.log(app)
