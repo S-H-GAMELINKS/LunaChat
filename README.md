@@ -1,11 +1,11 @@
 # LunaChat
-## 概要
+## About
 
 This is SPA ChatApp sample.
 
 Using C++ Web FrameWork：[Luna](https://github.com/DEGoodmanWilson/luna) &[Vue.js](https://github.com/vuejs/vue) & [Webpack](https://github.com/webpack/webpack) & [FireBase](https://firebase.google.com)
 
-## ビルド
+## Build
 
 ### Set Luna environment
 
