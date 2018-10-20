@@ -77,6 +77,10 @@ int main()
     auto contact = server.create_router("/contact");
     contact->serve_files("/", "assets");
 
+    // contact pages
+    auto chats = server.create_router("/chats");
+    chats->serve_files("/", "assets");
+
     server.start(port);
 
     return 0;

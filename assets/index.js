@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 Vue.use(Bootstrap)
 
-const hello = new Vue({
+const app = new Vue({
     router: Router,
     store: Store,
     el: '#app',
@@ -15,3 +15,5 @@ const hello = new Vue({
         'nav-bar': Header
     }
 })
+
+console.log(app)

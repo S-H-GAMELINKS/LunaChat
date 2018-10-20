@@ -10,6 +10,7 @@
       <router-link to="/" class="dropdown-item">Top</router-link>
       <router-link to="/about" class="dropdown-item">About</router-link>
       <router-link to="/contact" class="dropdown-item">Contact</router-link>
+      <router-link to="/chats" class="dropdown-item">Chats</router-link>
     </div>
   </div>
 </nav>
