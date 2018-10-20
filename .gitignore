@@ -12,3 +12,4 @@ Makefile
 /test/Makefile
 /tests/CTestTestfile.cmake
 /assets/.env
+/assets/webpack/index.js
