@@ -4,8 +4,8 @@ const Dotenv = require('dotenv-webpack');
 module.exports = {
     entry: './index.js', 
     output: { 
-      filename: 'index.js',   
-      path: `${__dirname}/webpack/` 
+      filename: 'main.js',   
+      path: `${__dirname}/` 
     },
     module: {
         rules: [{
