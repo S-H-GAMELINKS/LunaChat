@@ -45,7 +45,7 @@ int main()
                        [&](auto request) -> response
                        {
                             nlohmann::json retval;
-                            for(decltype(container)::iterator itr; itr != std::end(container); itr++)
+                            for(decltype(container)::iterator itr = std::begin(container); itr != std::end(container); itr++)
                                 retval[std::distance(std::begin(container), itr)] = *itr;
                             
                             return retval.dump();
